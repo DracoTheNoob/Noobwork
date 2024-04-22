@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group = 'fr.pjb'
+version = '1.0'
+compileJava.options.encoding = 'utf-8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+    implementation 'org.apache.poi:poi-ooxml:5.2.2'
+}
